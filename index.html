@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="register-page" class="page">
+        <h2>Register</h2>
+        <input type="text" id="reg-username" placeholder="Username">
+        <input type="password" id="reg-password" placeholder="Password">
+        <button id="register-button">Register</button>
+        <button id="go-to-login-button">Go to Login</button>
+    </div>
+
+    <div id="login-page" class="page hidden">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button id="login-button">Login</button>
+        <button id="go-to-register-button">Go to Register</button>
+    </div>
+
+    <div id="chat-page" class="page hidden">
+        <div class="chat-container">
+            <div id="chat-box" class="chat-box">
+                <div class="message bot-message">Hello! I am your health bot. Please list your symptoms.</div>
+            </div>
+            <div class="user-input-container">
+                <input type="text" id="user-input" placeholder="Type your symptoms here...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+        <button id="logout-button">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+    "diseases": [
+        {
+            "name": "Migraine",
+            "symptoms": ["headache", "nausea", "sensitivity to light", "sensitivity to sound"],
+            "doctors": ["Neurologist"]
+        },
+        {
+            "name": "COVID-19",
+            "symptoms": ["fever", "cough", "shortness of breath", "fatigue", "loss of taste", "loss of smell"],
+            "doctors": ["General Physician", "Infectious Disease Specialist"]
+        },
+        {
+            "name": "Heart Attack",
+            "symptoms": ["chest pain", "shortness of breath", "nausea", "sweating"],
+            "doctors": ["Cardiologist"]
+        },
+        {
+            "name": "Common Cold",
+            "symptoms": ["sneezing", "cold", "runny nose", "sore throat", "cough"],
+            "doctors": ["General Physician"]
+        },
+        {
+            "name": "Flu",
+            "symptoms": ["fever", "cold", "chills", "muscle aches", "cough", "fatigue"],
+            "doctors": ["General Physician"]
+        },
+        {
+            "name": "Asthma",
+            "symptoms": ["wheezing", "shortness of breath", "chest tightness", "cough"],
+            "doctors": ["Pulmonologist"]
+        },
+        {
+            "name": "Diabetes",
+            "symptoms": ["frequent urination", "excessive thirst", "extreme hunger", "unexplained weight loss", "fatigue"],
+            "doctors": ["Endocrinologist"]
+        },
+    
+        {
+            "name": "Bronchitis",
+            "symptoms": ["cough", "mucus production", "fatigue", "shortness of breath", "fever"],
+            "doctors": ["Pulmonologist"]
+        },
+        {
+            "name": "Pneumonia",
+            "symptoms": ["cough", "fever", "chills", "shortness of breath"],
+            "doctors": ["Pulmonologist"]
+        },
+        
+        {
+            "name": "Anxiety Disorder",
+            "symptoms": ["nervousness", "restlessness", "fatigue", "difficulty concentrating"],
+            "doctors": ["Psychiatrist"]
+        }
+       
+    ]
+}

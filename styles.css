@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.chat-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh;
+}
+
+.chat-box {
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: normal;
+}
+
+.bot-message {
+    margin-right: 150px;
+    background-color: hsl(153, 31%, 86%);
+    align-self: flex-start;
+    text-align: left;
+    width: fit-content;
+    max-width: 80%;
+}
+
+.user-message {
+    margin-left: auto;
+    background-color: #b6d4fe;
+    align-self: flex-end;
+    text-align: right;
+    width: fit-content;
+    max-width: 80%;
+}
+
+.user-input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#user-input {
+    flex-grow: 1;
+    border: none;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    height: 50px; /* Make the input box bigger */
+}
+
+#send-button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#logout-button {
+    margin-top: 20px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#login-page input,
+#register-page input {
+    margin: 5px 0;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login-page button,
+#register-page button {
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#register-button,
+#go-to-login-button,
+#go-to-register-button {
+    background-color: #007bff;
+    color: white;
+}
+
+#login-button,
+#logout-button {
+    background-color: #28a745;
+    color: white;
+}
